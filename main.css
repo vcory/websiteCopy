@@ -6,14 +6,21 @@ body {
     font-size: 17px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-style: normal;
+    overflow-x: hidden;
 }
+
 
 li {
     list-style-type: none;
     color: white;
-
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:10px;
+    padding-right:10px;
 
 }
+
+
 
 nav {
     display: flex;
@@ -22,8 +29,112 @@ nav {
     width: 100%;
     align-items: center;
     background-color: #2c2c2c;
+    font-size: 17px;
     
+}
+
+.navImage1{
+padding-left: 165px;
+
+}
+
+.navImage2{
+    padding-left: 10px;
+    padding-right: 10px;
     
+    }
+
+.navImage3{
+    padding-right: 165px;
+    
+    }
+.wrapper {
+    box-sizing: border-box;
+    direction: ltr;
+    display: block;
+    flex-grow: 0;
+    position: relative;
+    padding-top: 55px;
+    text-align: center;
+    text-size-adjust: 100%;
+    z-index: 4;
+    background-color: #f9f9f9;
+
+}
+
+.XRLogo {
+    
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    margin-bottom: 12px;
+    text-size-adjust: 100%;
+    flex-shrink: 1;
+    font-size: 56px;
+    font-weight: 600;
+    height: 35px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    text-size-adjust: 100%;
+    
+
+
+}
+
+ .links{
+     display: inline-block;
+     font-size: 21px;
+     font-weight: 400;
+     letter-spacing: .011em;
+     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     margin-top: 9.87px;
+
+ } 
+ 
+ .links2{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 9.87px;
+
+} 
+
+ .iconBuy {
+     margin-left: 20px;
+ }
+
+
+.subheading {
+    font-size: 24px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.231px;
+    line-height: 29.002px;
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a {
+    color: #0070c9;
+
+    
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #hero-container {
@@ -46,22 +157,54 @@ nav {
     background-size: 865px 471px; */
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
+    /* position: absolute; */
     /* object-fit: fill; */
+    top:280px;
     
-
-
 }
+
 
 #hero-container2 {
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
-    margin-top: 485px;
+    margin-top: -220px;
+    
 }
 
 #heroXS {
-    position: absolute;
+    /* position: absolute; */
 }
 
+.wrapper2 {
+    display: block;
+    padding-top: 57px;
+    
+    box-sizing: border-box;
+    direction: ltr;
+    flex-grow: 0;
+    position: relative;
+    padding-top: 55px;
+    text-align: center;
+    text-size-adjust: 100%;
+    z-index: 4;
+}
+
+.XSLogo {
+    
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    margin-bottom: 12px;
+    text-size-adjust: 100%;
+    flex-shrink: 1;
+    font-size: 56px;
+    font-weight: 600;
+    height: 35px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    text-size-adjust: 100%;
+}
 
